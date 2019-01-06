@@ -212,7 +212,8 @@ echo    " (10.MAKE SCRIP DEFACE "
 echo    "<•¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤•>"|lolcat
 echo    " (11.WEB HACK "
 echo    "<•¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤•>"|lolcat
-read -p "(pilih nomornya>" sf;
+echo    "╭─[>•<]"
+read -p "╰─root@./MR_XID=" sf;
 
 if [ $sf = 1 ] || [ $sf = 1 ]
 then
@@ -354,8 +355,6 @@ echo    " 4. Webdav Mass Exploit"
 echo    "===========================" | lolcat
 echo    " 5. Websploit"
 echo    "==========================="|lolcat
-echo    " 00. back"
-echo    "==========================="|lolcat
 echo    "╭─[web hack]"
 read -p "╰─root@./MR_XID=" ga;
 if [ $ga = 1 ] || [ $ga = 1 ]
@@ -399,9 +398,6 @@ git clone https://github.com/blackvkng/viSQL
 cd viSQL
 chmod 777 viSQL.py
 python2 viSQL.py
+sleep 1
+exit 
 fi 
-if if [ $ga = 00 ] || [ $ga = 00 ]
-then 
-sh Xidploit.sh
-exit
-fi
